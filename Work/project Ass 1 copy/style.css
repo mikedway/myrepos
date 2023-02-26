@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+p{
+    margin-top: 20px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+section{
+    margin-block: 2rem;
+}
+.header__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav ul li{
+    list-style: none;
+    margin-inline: 1rem;
+    color: white;
+}
+.in-touch{
+    background-color: yellow;
+    padding: 1rem 2rem;
+    display: inline-block;
+    color: black;
+}
+.intro__container{
+    width: 35rem;
+    margin-left: 4.5rem;
+    padding: 1rem;
+}
+.intro__container h2{
+    font-size: xxx-large;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.founder__container h2{
+    font-size: xx-large;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.sponsor__container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.sponsor__container li{
+    list-style: none;
+}
+.founder, footer{
+    background-color: rgba(248, 244, 244, 0.541);
+}
+.role1__container, .founder__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    line-height: 1.5;
+    padding: 1rem;
+}
+.interested__container, .intro__container{
+    line-height: 1.5;
+}
+.spense img, .yelpcamp img{
+    width: 100%;
+}
+.interested__container{
+    width: 35rem;
+    margin-left: 4.5rem;
+    padding: 1rem;
+
+}
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.interested__container .in-touch{
+    margin-top: 1rem;
+}

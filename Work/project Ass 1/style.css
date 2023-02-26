@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+section{
+    margin-block: 3rem;
+}
+.mobile__nav{
+    display: none;
+}
+.header__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.nav ul li{
+    list-style: none;
+    margin-inline: .4rem;
+    
+}
+.in-touch{
+    background-color: yellow;
+    padding: 1rem 1.5rem;
+    display: inline-block
+}
+
+.sponsor__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.sponsor__container li{
+    list-style: none;
+}
+
+.founder__container,.hero__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.spence img, .yelp img{
+    width: 100%;
+}
+
+.founder{
+    background-color: rgba(128, 128, 128, 0.452);
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.452);
+
+}
+
+.footer__container{
+    padding-top: 1.5rem;
+}
+.header__container{
+    padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width:550px) {
+    .container{
+        width: 90%;
+    }
+    .founder__container, .hero__container{
+        grid-template-columns: 1fr;
+    }
+    .mobile__nav{
+        display: block;
+    }
+    .nav, .desk-intouch{
+        display: none;
+    }
+    .dropdown__content{
+        display: none;
+    }
+}

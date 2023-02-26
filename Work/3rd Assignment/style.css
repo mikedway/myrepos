@@ -1,0 +1,55 @@
+table{
+    padding: 0px;
+    text-align: left;
+}
+td{
+    outline: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+/* all grid */
+/* *{
+    border: 1px solid black;
+} */
+#experience th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+.hobbies{
+border-top: 1px solid;
+}
+.work{
+    border-top: 1px solid;  
+    border-bottom: 1px solid;
+}
+.hobbies ul{
+list-style: lower-alpha;
+padding: 0;
+}
+.book {
+    border-top: 1px solid;
+}
+
+.faruk h2{
+    color: rgb(251, 251, 255);
+    background-color: rgb(122, 176, 226);
+}
+.top__container{
+    /* border: 1px solid red; */
+    height: max-content;
+    display: flex;
+    gap: 20px;
+    align-content: center;
+
+}
+.fat{
+    object-fit: cover;
+
+}
+.faruk{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+.container{
+    background-color: rgb(238, 228, 228);
+    margin: 1px;
+    border-radius: 2%;
+    padding: .2rem;
+}
+h1{
+font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.7rem;
+}
+h4{
+    font-size: 1.4rem;
+}
+a{
+text-decoration: none;
+}
+.trav ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(249, 253, 253);
+    border-radius: 15px;
+}
+.trav li{
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+}
+.trav ul li:nth-child(2){
+    margin-inline: 1rem;
+}
+.upper-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 2rem;
+}
+.upper-left-side p {
+text-align: justify;
+margin-top: 1rem;
+line-height: 1.8;
+}
+
+.upper-left-side{
+    height: 150%;
+    padding: 4rem;
+}
+.img1{
+    width: 100%;
+}
+.btn1, .btn2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.btn1 button, .btn2 button{
+    padding: 1rem 3rem;
+    background-color: rgb(241, 181, 101);
+    color: whitesmoke;
+    font-size: 1rem;
+    border-radius: 1rem;
+
+}
+body{
+    margin: 2rem;
+    background-color: rgba(253, 175, 74, 0.884);
+
+}
+.more button{
+    background-color: rgb(255, 183, 50);
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+.lower-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(207, 164, 100, 0.801);
+    margin: 2rem;
+    padding: 4rem;
+    border-radius: 20px;
+}
+.lower-right-side{
+    text-align: justify;
+    margin: 20px;
+    height: 150%;
+    line-height: 1.8;
+    padding: 2rem;
+}
+.img2{
+    width: 100%;
+}

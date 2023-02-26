@@ -1,0 +1,57 @@
+.container{
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+
+/* a{
+    text-decoration: none;
+} */
+.left__side{
+    background-color: gray;
+    padding: 12px;
+
+}
+.right__side{
+    background-color: red;
+    padding: 10px;
+}
+
+.nav ul{
+    list-style: none;
+    padding: 0;
+}
+.nav ul li a{
+    text-decoration: none;
+    /* margin-bottom: .5rem; */
+}
+.nav ul li{
+    margin-bottom: .5rem;
+}
+
+.nav ul li{
+    text-decoration: none;
+    /* list-style: none; */
+}
+/* @media screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+} */
+
+/* styling intro  */
+
+.right__side > div h3{
+    background-color: black;
+    color: gray;
+    padding: 5px 0;
+    /* top and bottom,,,,,,, left and right */
+    /* padding: 10px 10px 15px 2px ;  */
+    /* top right bottom left */
+}
+
+
+

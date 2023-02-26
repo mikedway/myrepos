@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.7rem;
+}
+h4{
+    font-size: 1.4rem;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    display: flex;
+}
+.left-side{
+    background-color: #54C571;
+    padding: 5px;
+    text-align: left;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem;
+    color:  white;
+
+
+}
+.uil-snapchat-ghost{
+    color: #54C571;
+    font-size: 2rem;
+
+
+}
+.right-hand{
+   text-align: center;
+   width: 100%;
+   padding: 3rem 15rem;
+   
+
+}
+.chat{
+    background-color: white;
+    width: max-content;
+    border-radius: 50%;
+    padding: .5rem;
+    text-align: center;
+}
+.bottom-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-hand input, .right-hand button, .right-hand select{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+.right-hand input, .right-hand select{
+    background-color: rgba(224, 227, 230, 0.712);
+    padding-inline: 1rem;
+    font-size: .9rem;
+
+}
+.check_result_btn {
+    background-color: #54C571;
+    color: white;
+}
+.purchase_btn{
+    background-color: rgb(18, 121, 238);
+    color: white;
+    margin-top: 1rem;
+}
+.login_account{
+    display: flex;
+    justify-content: space-evenly;
+}
+.naccount{
+    margin-top: 1rem;
+    color: #54C571;
+}
+.naccount a{
+    color: #54C571;
+}
+.form-head h2{
+    margin-bottom: 1rem;
+}
+.nav ul li {
+    margin: 1.5rem;
+}
+.bottom-right a{
+    text-decoration: underline;
+}

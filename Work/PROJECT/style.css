@@ -1,0 +1,43 @@
+form[name=form1] {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: bold;
+  text-align: center;
+  background-color: rgb(212, 162, 204);
+  color: white;
+}
+
+/* feddede */
+textarea{
+  background-color: rgba(145, 93, 228, 0.918);
+  padding: 5px;
+
+}
+/* form[name=form1] > *{ shortcut for form spacing intead of selecting one after the other
+  margin: .5rem;
+} */
+h1{
+  color:blueviolet;
+  background-color: darkseagreen;
+  font-style:normal
+}
+#name{
+  color: rgb(255, 72, 0.5rem);
+}
+
+label[for=name] {
+color: blue;
+margin: 10px;
+padding: 2px;
+}
+label[for=dept] {
+color: rgb(255, 8, 0);
+margin: 10px;
+margin-bottom: 20px;
+
+padding: 5px;
+}
+
+div{
+  margin: 20px;
+  text-align: center;
+}
