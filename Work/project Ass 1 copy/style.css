@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: none;
+    /* outline: 1px solid red; */
     box-sizing: border-box;
 
 }
@@ -18,7 +18,7 @@ body{
     color: white;
 }
 .container{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 section{
@@ -29,9 +29,13 @@ section{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
 
 }
+.header__container2{
+    display: none;
+}
+
 .nav ul{
     display: flex;
     flex-direction: row;
@@ -47,15 +51,17 @@ section{
     display: inline-block;
     color: black;
 }
-.intro__container{
-    width: 35rem;
-    margin-left: 4.5rem;
-    padding: 1rem;
-}
 .intro__container h2{
     font-size: xxx-large;
     line-height: 1.2;
     margin-bottom: 20px;
+    width: 50%;
+    padding:1rem
+}
+    .intro__container p{
+    padding: 1rem;
+    width: 50%;
+
 }
 .founder__container h2{
     font-size: xx-large;
@@ -65,7 +71,8 @@ section{
 .sponsor__container{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    line-height: 4rem;
     padding: 1rem;
 }
 .sponsor__container li{
@@ -81,17 +88,12 @@ section{
     line-height: 1.5;
     padding: 1rem;
 }
+
 .interested__container, .intro__container{
     line-height: 1.5;
 }
 .spense img, .yelpcamp img{
     width: 100%;
-}
-.interested__container{
-    width: 35rem;
-    margin-left: 4.5rem;
-    padding: 1rem;
-
 }
 .footer__container{
     display: flex;
@@ -102,3 +104,105 @@ section{
 .interested__container .in-touch{
     margin-top: 1rem;
 }
+.interested__container p{
+    width: 50%;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #e4b2b2;
+    min-width: 160px;
+
+  }
+  .dropdown-content a:hover {
+      background-color: red}
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 400ms all;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: blue;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+
+@media only screen and (max-width: 1200px) {
+   
+   .container{
+       width: 85%;
+   }
+    .sponsor__container{
+        flex-wrap:wrap;
+        gap: 1rem;
+
+    }
+    .intro__container p, .interested__container{
+        padding: 1rem;
+        width: auto;
+    }
+    
+    .header__container{
+        display: none;
+    }
+    .header__container2{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+    
+    }
+    
+    section{
+        margin-block: 1rem;
+    }
+    .role1__container, .founder__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .intro__container h2{
+        font-size: xx-large;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block
+      }
+    
+}
+    
+@media screen and (max-width: 600px) {
+
+    .container{
+        width: 95;
+    }
+      
+  }
