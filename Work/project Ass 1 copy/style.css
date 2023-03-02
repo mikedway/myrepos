@@ -189,6 +189,9 @@ section{
         margin-bottom: 20px;
         width: 100%;
     }
+    .interested__container p{
+        width: 100%;
+    }
     .container{
         width: 90%;
     }
