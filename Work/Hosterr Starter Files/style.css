@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+    box-sizing: border-box;
+    font-family: 'lato';
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: rgba(250, 239, 224, 0.562);
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+    align-items: center;
+}
+.hiring a{
+    display: block;
+    padding: .3rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(to right, rgb(165, 116, 42), rgb(189, 63, 63));
+    color: whitesmoke;
+    width: 10rem;
+    text-align: center;
+    
+}
+.logo, .submo{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+section{
+    margin-top: 8rem;
+}
+#join{
+    padding: .8rem 2rem;
+    background-color: rgb(62, 149, 231);
+    display: inline-block;
+    border-radius: 4px;
+}
+.account{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.host__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding-block: 7rem; */
+}
+.right-host__container{
+    /* border: 1px solid rgb(24, 224, 6); */
+    /* padding-left: 20rem; */
+}
+.blue{
+    /* border: 5px solid blue; */
+    margin: auto;
+    position: relative;
+    
+}
+.left-host__container h1{
+   font-family: 'Playfair Display';
+   font-size:xxx-large;
+}
+.left-host__container p{
+    margin-block: 1rem;
+    font-size: medium;
+}
+.left-host__container{
+display: inline-block;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    /* gap: 1rem; */
+}
+#email{
+    display: inline-block;
+    width: 17rem;
+    padding: .8rem;
+}
+.spam{
+    display: flex;
+    gap: 1rem;
+}
+.blue img{
+    position: absolute;
+    height: 17rem;
+    right: 10%;
+}
+.blue img:first-child{
+    rotate: -45deg;
+}
+.blue img:nth-child(2){
+    rotate: -30deg;
+}
+.blue img:nth-child(3){
+    rotate: -15deg;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.social{
+    display: flex;  
+    gap: 3rem;
+}
+.help{
+    display: flex;
+    gap: 1.5rem;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #e4b2b2;
+    min-width: 160px;
+
+  }
+  .dropdown-content a:hover {
+      background-color: red
+    }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 400ms all;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: blue;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+@media screen and (max-width: 1000px){
+    body{
+        background-color: blue;
+    }
+    .container{
+        width: 85%;
+        /* background-color: black; */
+        /* justify-content:safe; */
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .account{
+        display: none;
+    }
+    .host__container{
+        grid-template-columns: 1fr !important;
+    }
+    .right-host__container{
+        order: 1;
+    }
+    .left-host__container{
+        order: 2;
+        margin-top: 20rem;
+    }
+    .submo{
+        display: none;
+    }
+    /* .host__container{
+        display: flex;
+        flex-direction: column;
+    } */
+    .blue img{
+        position: absolute;
+        height: 20rem;
+    }
+    .social{
+        display: flex;  
+        gap: 1rem;
+    }
+    /* .footer__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10rem;
+    } */
+    section{
+        margin-top: 0rem;
+    }
+    .blue img{
+        position: absolute;
+        height: 20rem;
+        right: 22%;
+    }
+     
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: rgb(222, 243, 101);
+    }
+    .container{
+        width: 95%;
+    }
+    .footer__container{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+    .form{
+        flex-direction: column;
+        display: block;
+        outline: 1px solid black;
+    }
+    .form a, #email{
+        /* display: inline-block; */
+        width: 100%;
+    }
+    #email{
+        margin-bottom: .5rem;
+    }
+
+    
+}
