@@ -224,6 +224,16 @@ display: inline-block;
         height: 20rem;
         right: 22%;
     }
+    .dropdown-content {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+
+        
+    }
+    /* *{
+        border: 1px solid black;
+    } */
      
 }
 @media screen and (max-width: 600px){
@@ -241,7 +251,7 @@ display: inline-block;
     .form{
         flex-direction: column;
         display: block;
-        outline: 1px solid black;
+        /* outline: 1px solid black; */
     }
     .form a, #email{
         /* display: inline-block; */
