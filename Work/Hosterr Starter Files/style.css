@@ -95,10 +95,10 @@ display: inline-block;
     display: flex;
     gap: 1rem;
 }
-.blue img{
+/* .blue img{
     position: absolute;
     height: 17rem;
-    right: 10%;
+    right: 10%; */
 }
 .blue img:first-child{
     rotate: -45deg;
