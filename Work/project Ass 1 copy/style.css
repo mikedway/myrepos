@@ -107,7 +107,8 @@ section{
 .interested__container p{
     width: 50%;
 }
-
+@media screen and (max-width: 1200px) {
+    
 .dropbtn {
     background-color: black;
     color: white;
@@ -149,11 +150,7 @@ section{
     background-color: gray;
   }
 
-@media only screen and (max-width: 1200px) {
-   
-   .container{
-       width: 85%;
-   }
+
     .sponsor__container{
         flex-wrap:wrap;
         gap: 1rem;
@@ -198,8 +195,7 @@ section{
     .dropdown {
         position: relative;
         display: inline-block
-      }
-    
+     }
 }
     
 @media screen and (max-width: 600px) {
@@ -208,4 +204,4 @@ section{
         width: 95;
     }
       
-  }
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    background-color: aliceblue;
+}
+
+
+.first{
+    width: 20rem;
+    margin: auto;
+    background-color: red;
+    margin-top: 15rem;
+    height: 20rem;
+    position: relative;
+}
+.last{
+    width: 5rem;
+    margin: auto;
+    background-color: rgb(4, 0, 255);
+    height: 10rem;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+}

@@ -272,7 +272,7 @@ footer{
 
 @media screen and (max-width: 1000px) {
     *{
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
     }
     .act{
         background: url("/Assets/Hero\ Image\ \(Tablet\ View\).png");
