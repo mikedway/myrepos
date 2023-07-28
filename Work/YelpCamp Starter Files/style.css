@@ -22,7 +22,7 @@ li{
 }
 .one__container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
 }
 .logo{
     margin-block: 4em;
@@ -62,17 +62,29 @@ li{
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-.view{
-    display: inline-flex;
-    background-color: black;
-    padding: 1.5rem 2rem;
-    border-radius: 0.3rem;
-    width: 18rem;
-}
-.view li a{
+.viewc{
     color: whitesmoke;
+    padding: 1rem 1.7rem;
+    display: inline-flex;
+    outline: 2px solid blue;
+    background-color: black;
     font-size: 1.5rem;
 }
+/* .view{
+    background-color: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    color: whitesmoke;
+    border-radius: 0.3rem;
+    width: fit-content;
+}
+.view a{
+    display: inline-flex;
+    outline: 2px solid red;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    width: fit-content;
+    background-color: red;
+} */
 .brand p{
     font-size: 1.5rem;
     margin-block: 1.5rem;
@@ -81,4 +93,47 @@ li{
 .sponsor{
     display: flex;
     gap: 2rem;
+}
+.image1{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50vw;
+    height: 100vh;
+}
+.image2{
+    display:none;
+}
+@media screen and (max-width: 1000px){
+    body{
+        /* background-color: rgb(230, 220, 71); */
+    }
+    .container{
+        width: 90%;
+    }
+    .image1{
+        display: none;
+    }
+    .one__container{
+        grid-template-columns: 1fr;
+    }
+    .image2{
+        display: block;
+        width: 100%;
+
+    }
+    .right-side__container{
+        order: 0;
+    }
+    .left-side__container{
+        order: 1;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        /* background-color: rgb(81, 66, 170); */
+    }
+    .image2{
+        width: 95%;
+    }
 }

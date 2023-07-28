@@ -51,6 +51,7 @@ li{
     color: black;
     padding: 1rem 1.7rem;
     display: inline-flex;
+    outline: 2px solid blue;
 }
 .left__container1{
     display: flex;
@@ -171,8 +172,6 @@ footer{
     display: none;
 }
 
-
-
 @media screen and (max-width: 1000px) {
     /* *{
         background-color: rgb(205, 215, 142);
@@ -267,9 +266,6 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-
-    ,
-
         
 }
 
