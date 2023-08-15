@@ -107,18 +107,27 @@ button{
     gap: 1rem;
     border: 16px;
 }
-.view{
+/* .view{
     display: flex;
-    padding: 1rem;
     justify-content: center;
     outline: 1px solid gray;
     border-radius: .3rem;
-}
+    height: inherit;
+} */
 .view a{
     display: flex;
     width:100%;
     justify-content: center;
     color: black;
+    outline: 1px solid rgb(12, 12, 12);
+    padding: 1rem;
+    transition: 400ms all;
+    border-radius: 5px;
+
+}
+.view a:hover{
+    background-color: black;
+    color: white;
 }
 .footer__container{
     display: flex;
