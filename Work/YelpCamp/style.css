@@ -6,7 +6,7 @@
     /* color: rgb(56, 52, 52); */
 }
 h3, p{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Archivo', sans-serif;
 }
 a{
     text-decoration: none;
@@ -25,7 +25,7 @@ li{
     grid-template-columns: 50% 50%;
 }
 .logo{
-    margin-block: 4em;
+    margin-block: 2.5em;
 }
 .explore{
     display: flex;
@@ -52,7 +52,7 @@ li{
 .tick{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.7rem;
 }
 .tick p{
     display: flex;
@@ -64,11 +64,10 @@ li{
 }
 .viewc{
     color: whitesmoke;
-    padding: 1rem 1.7rem;
+    padding: 1rem 1.5rem;
     display: inline-flex;
-    outline: 2px solid blue;
     background-color: black;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 /* .view{
     background-color: rgb(0, 0, 0);
@@ -110,6 +109,7 @@ li{
     }
     .container{
         width: 90%;
+        margin: auto;
     }
     .image1{
         display: none;
@@ -128,12 +128,35 @@ li{
     .left-side__container{
         order: 1;
     }
+    .explore h3{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    .explore{
+        margin-top: 2rem;
+    }
+    .sponsor{
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }    
+    
 }
 @media screen and (max-width: 600px){
     body{
         /* background-color: rgb(81, 66, 170); */
     }
-    .image2{
-        width: 95%;
+    *{
+        /* outline: 1px solid red; */
     }
+    .left{
+        padding: 0;
+    }
+    .explore h3{
+        font-size: 2.5rem;
+    }
+    .explore p, tick p{
+        font-size: 21px;
+        line-height: 28px;
+    }
+
 }
